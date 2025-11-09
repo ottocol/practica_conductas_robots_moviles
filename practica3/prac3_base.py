@@ -15,7 +15,7 @@ from yasmin.state_machine import StateMachine
 from yasmin.blackboard import Blackboard
 
 TOPIC_VEL = "/cmd_vel"
-TOPIC_SCAN = "/scan_raw"            
+TOPIC_SCAN = "/scan"            
 TOPIC_COLOR = "/color_detected"
 
 ANG_IZQ = 30.0 * math.pi / 180.0
