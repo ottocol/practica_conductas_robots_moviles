@@ -41,9 +41,17 @@
 
   
   <block class="trash-can">
-    <init_pose>-8 -10 0</init_pose>
+    <init_pose>-4 -11.5 0</init_pose>
   </block>
   
+
+  <block class="trash-can">
+    <init_pose>2 -4 0</init_pose>
+  </block>
+
+  <block class="trash-can">
+    <init_pose>8 11 0</init_pose>
+  </block>
 
   <element class="vertical_plane">
       <x0>15</x0> <y0>15</y0>
