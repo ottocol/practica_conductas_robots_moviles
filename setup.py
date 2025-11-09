@@ -20,6 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'color_detector = practica3.color_detector:main',
+            'hola_yasmin   = practica3.hola_yasmin:main',
+            'patrol_yasmin = practica3.patrol_yasmin:main',
+            'prac3_base    = practica3.prac3_base:main',
         ],
     },
 )

@@ -12,6 +12,16 @@
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
 
+  <!-- Dependencias básicas de ejecución -->
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav2_msgs</depend>
+
+  <!-- Dependencias de YASMIN -->
+  <depend>yasmin</depend>
+  <depend>yasmin_ros</depend>
+  <depend>yasmin_viewer</depend>
+
   <export>
     <build_type>ament_python</build_type>
   </export>
